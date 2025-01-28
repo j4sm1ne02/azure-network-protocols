@@ -31,10 +31,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2> Configuring a FireWall<h2>
 
--
--
--
-
+- Inbound security rules
+- Delete the rule and re-enable ICMP traffic in network security group
 
 <h2>FOR ICMP TRAFFIC</h2>
 
@@ -69,3 +67,29 @@ Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping 
 
 </p>
 <br />
+
+<h2> FOR CONFIGURING A FIREWALL<h2>
+
+<p>
+<img width="1270" alt="image" src="https://github.com/user-attachments/assets/890333a1-9d72-43ce-b551-614c1f281d8b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Open the Linux VM in Azure. Go to the settings, click on network, and edit the Inbound Security Rules as seen in the picture.
+
+</p>
+<br />
+
+</p>
+<img src="https://github.com/user-attachments/assets/a3a3dc04-59e2-4a53-b7ed-e92fd8180f28" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+When the rule takes effect, it will start to time out and ignore the traffic.
+
+<p>
+<img src="https://github.com/user-attachments/assets/b020ef76-d65a-4bf9-b7e5-5a76c98636cf" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Delete the rule and Re-enable ICMP traffic for the Network Security Group your Ubuntu VM. When you go back to the Windows VM, the ping activity will start working.
