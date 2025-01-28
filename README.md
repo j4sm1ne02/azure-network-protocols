@@ -42,17 +42,24 @@ Run Windows 10 VM on Azure, open Remote Desktop to paste the IP address, go into
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img  src="https://github.com/user-attachments/assets/5361ccf1-31ba-4448-bc9d-3968cca03123" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open Wireshark and start packet capture. Within Wireshark, filter for ICMP traffic only
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img  src="https://github.com/user-attachments/assets/a7b7ace1-e233-4f87-ba4b-365b23da16c1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img  src="https://github.com/user-attachments/assets/e55e462e-b04f-4ac1-81a0-e5907e2f6422" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="847" alt="image" src="https://github.com/user-attachments/assets/cf5924b5-3951-4565-b109-f0074e99da22" />
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM. You can see the pings in the 3rd screenshot.
+
 </p>
 <br />
