@@ -25,7 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1- Install Wireshark on VM
+- Install Wireshark on VM
 - Step 2
 - Step 3
 - Step 4
@@ -33,11 +33,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="<img width="937" alt="image" src="https://github.com/user-attachments/assets/42b64483-1e8a-48fc-8a9e-2c20a2a172a9" />
- " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/42b64483-1e8a-48fc-8a9e-2c20a2a172a9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Open the Windows 10 VM, go into Internet Explorer, and install Wireshark X64 
+Run Windows 10 VM on Azure, open Remote Desktop to paste the IP address, go into Internet Explorer on the VM, and install Wireshark X64 
 </p>
 <br />
 
