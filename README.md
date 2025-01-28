@@ -33,7 +33,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://imgur.com/a/uvLdaaH" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="<img width="937" alt="image" src="https://github.com/user-attachments/assets/42b64483-1e8a-48fc-8a9e-2c20a2a172a9" />
+ " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open the Windows 10 VM, go into Internet Explorer, and install Wireshark X64 
