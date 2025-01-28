@@ -29,8 +29,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Open Wireshark 
 - Ping ICMP traffic only
 
+<h2> Configuring a FireWall<h2>
 
-<h2>Actions and Observations</h2>
+-
+-
+-
+
+
+<h2>FOR ICMP TRAFFIC</h2>
 
 <p>
 <img src="https://github.com/user-attachments/assets/42b64483-1e8a-48fc-8a9e-2c20a2a172a9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
